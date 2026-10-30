@@ -1,0 +1,121 @@
+ticket_id,text,category
+T-001,Our monthly subscription price increased without any notice.,billing
+T-002,Webhook notifications to our pharmacy partner are failing with a timeout.,technical
+T-003,My username is not recognised even though I have used it for two years.,login
+T-004,Why are Saturday morning slots not appearing for the pediatric clinic?,appointment
+T-005,Autosave keeps overwriting my notes with an older version.,technical
+T-006,The check-in list for today is missing two patients who have confirmed appointments.,appointment
+T-007,The insurance claim was rejected because the policy number was blank on the statement.,billing
+T-008,The shared front desk computer keeps showing the previous person's session.,login
+T-009,Export to Excel produces a file that Excel says is corrupted.,technical
+T-010,"An overpayment from a patient should be credited to their next visit, but the credit is missing.",billing
+T-011,Can we enforce stronger password rules for all clinic staff?,login
+T-012,"After the password change, the old password still works.",login
+T-013,Why was I asked to verify my identity again when I logged in from a new location?,login
+T-014,A patient says she booked a follow-up visit but it does not appear in our schedule.,appointment
+T-015,I forgot my password and the reset email never arrives.,login
+T-016,Please send me the last three months of invoices for the clinic account as one document.,billing
+T-017,Our front desk cannot reschedule a patient's appointment because the new time slot keeps showing as unavailable.,appointment
+T-018,A new staff member did not receive the invitation link to create an account.,login
+T-019,How do I set up a recurring weekly appointment for a physiotherapy patient?,appointment
+T-020,My account is locked after too many failed sign in attempts.,login
+T-021,"I cannot log in to see today's appointments, it says my session is invalid.",login
+T-022,The waitlist did not offer the freed slot to the next patient after a cancellation.,appointment
+T-023,Confirmation emails show the wrong visit date for patients in a different time zone.,appointment
+T-024,A cancelled appointment is still showing on the doctor's calendar for Friday.,appointment
+T-025,"A patient tried to cancel online but the system says the cancellation window has closed, can you override it?",appointment
+T-026,Our credit card on file expired and we want to update it before the renewal date.,billing
+T-027,Patients are able to book a slot outside our clinic opening hours.,appointment
+T-028,I want to downgrade our plan to the basic tier before the next billing cycle.,billing
+T-029,We need a payment plan option so patients can pay a large bill in monthly instalments.,billing
+T-030,Please cancel all bookings on the clinic holiday and notify the patients affected.,appointment
+T-031,We need to extend the booking window so patients can reserve visits three months ahead.,appointment
+T-032,The outstanding balance report adds up to a different total than the accounting export.,billing
+T-033,The system generated a late fee for an invoice that we paid on time.,billing
+T-034,I would like to drag an appointment to a different day on the calendar instead of editing it by hand.,appointment
+T-035,We were charged for fifteen user licences but only have twelve staff members.,billing
+T-036,The browser console shows a network error and the page stays blank.,technical
+T-037,Images in the patient gallery do not load on the clinic Wi-Fi.,technical
+T-038,Voice dictation in the notes field has stopped working in Chrome.,technical
+T-039,Can we add a fifteen minute buffer between consultations in the booking rules?,appointment
+T-040,The online booking page shows last week's availability instead of next week's.,appointment
+T-041,The billing page throws an error and shows an empty table when I filter by date.,technical
+T-042,Single sign-on keeps sending me back to the login screen.,login
+T-043,"The login page says my email is not registered, but my colleague added me yesterday.",login
+T-044,The appointment confirmation page loads forever and then times out.,technical
+T-045,Attached images are rotated sideways after uploading from a phone.,technical
+T-046,A new doctor can sign in but sees an empty dashboard because no patient permissions were assigned.,login
+T-047,I cannot see the no-show history for a patient when I schedule a new visit.,appointment
+T-048,An unexpected error appears when I click save on the intake form.,technical
+T-049,Uploading a scanned PDF fails with the message file could not be processed.,technical
+T-050,Our reports show duplicate rows after the nightly data import.,technical
+T-051,The barcode scanner input is not recognised by the check-in screen.,technical
+T-052,Receipts sent to patients show the wrong clinic address and tax number.,billing
+T-053,A blank screen appears after submitting the referral form.,technical
+T-054,Patients receive two reminder messages for the same appointment.,appointment
+T-055,The invoice total does not match the services listed on the visit.,billing
+T-056,The system is very slow during peak hours and screens time out.,technical
+T-057,Walk-in patients should be addable to the same-day queue but we only see scheduled visits.,appointment
+T-058,A bill was sent to the wrong insurer even though the patient updated their coverage.,billing
+T-059,Double booking happened again: two patients were assigned to the same doctor at 10:30 on Tuesday.,appointment
+T-060,A patient insists they were billed for a lab test that was never performed.,billing
+T-061,Rescheduling a visit sends the patient a cancellation notice instead of a change notice.,appointment
+T-062,Please update the billing contact email for the clinic account.,billing
+T-063,Appointment reminder text messages are not going out to patients the day before their visit.,appointment
+T-064,The app crashes whenever I open a patient record with more than ten attachments.,technical
+T-065,The reminder says the visit is at 3 PM but the schedule shows 4 PM for the same booking.,appointment
+T-066,After resetting my password the system asks me to set up a security question that I cannot skip.,login
+T-067,My password contains a special character and the login form rejects it.,login
+T-068,We need to apply a discount code to a patient's outstanding balance.,billing
+T-069,The account for our locum doctor should expire automatically after one week.,login
+T-070,Can I get a quote for adding a second branch to our subscription?,billing
+T-071,Our receptionist needs access to the scheduling module but her role does not allow it.,login
+T-072,The API returns a 502 response when we request the patient summary endpoint.,technical
+T-073,Signing in with my work Google account fails with an access denied message.,login
+T-074,The font size in printed lab results is tiny and hard to read.,technical
+T-075,The tax rate on invoices was not updated after the new regulation took effect.,billing
+T-076,Can you explain the extra fee on this month's bill for additional user seats?,billing
+T-077,The slot length for a new patient visit is set to twenty minutes but should be thirty.,appointment
+T-078,We want patients to be able to pick a specific doctor when they request a new visit.,appointment
+T-079,Two people share one login at our reception and we want separate accounts.,login
+T-080,The calendar page crashes with an error when I switch to month view.,technical
+T-081,The refund was approved last week but the money has not reached the patient yet.,billing
+T-082,I need to block off my Thursday afternoon for training so nobody can book me.,appointment
+T-083,The application will not start on Windows 11 after installing the update.,technical
+T-084,Dark mode makes the form labels unreadable on the intake screen.,technical
+T-085,The imaging viewer stays black after opening a scan file.,technical
+T-086,A telehealth appointment was created without a video link attached to it.,appointment
+T-087,Our admin cannot unlock a staff account from the user management page.,login
+T-088,A patient was charged a late cancellation fee even though they cancelled two days before the appointment.,billing
+T-089,Doctors cannot sign in to view the appointment schedule since the password policy changed.,login
+T-090,Doctors want to see only their own appointments when they open the schedule.,appointment
+T-091,Please move all appointments for the dentist who is on leave to another provider.,appointment
+T-092,I get logged out every few minutes while I am working with a patient.,login
+T-093,Co-payment amounts are not calculated according to the patient's insurance plan.,billing
+T-094,Error 500 appears when I try to export the weekly report.,technical
+T-095,I changed my phone number and can no longer receive the two factor text message.,login
+T-096,A card payment went through but the invoice still says unpaid.,billing
+T-097,Our appointment types list is missing the new annual check-up option.,appointment
+T-098,I am unable to turn off two-step verification after getting a new phone.,login
+T-099,The backup job reported success but the restore test could not open the files.,technical
+T-100,Please remove access for a nurse who left the clinic yesterday.,login
+T-101,"The statement lists a service we did not provide, please correct the billing code.",billing
+T-102,Our payment gateway statement shows a charge that we cannot match to any invoice.,billing
+T-103,The verification code from my authenticator app is rejected every time.,login
+T-104,The mobile app freezes on the splash screen after the latest update.,technical
+T-105,The captcha on the sign in page never loads so I cannot get past it.,login
+T-106,A patient was charged twice for the same consultation fee.,billing
+T-107,The password reset link says it has expired immediately after I click it.,login
+T-108,How do I issue a refund for the deposit of a cancelled appointment?,billing
+T-109,The text in the notes field overlaps the buttons on a small screen.,technical
+T-110,The dashboard takes more than a minute to load every morning.,technical
+T-111,Search returns no results even though I know the patient exists.,technical
+T-112,"Invoice numbers are skipping, there is a gap between 1042 and 1045.",billing
+T-113,Printed prescriptions are cut off on the right edge of the page.,technical
+T-114,Scrolling inside the medication list is very laggy on older tablets.,technical
+T-115,A patient was marked as no-show even though they checked in on time for their appointment.,appointment
+T-116,The payment page shows the amount in the wrong currency for international patients.,billing
+T-117,I cannot sign in on my tablet but it works fine on my laptop.,login
+T-118,Data from our lab system has stopped syncing since yesterday evening.,technical
+T-119,Group appointments for vaccination day should allow ten patients per slot.,appointment
+T-120,Where can I download the annual summary of payments received for tax filing?,billing

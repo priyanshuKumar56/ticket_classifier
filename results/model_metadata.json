@@ -1,0 +1,67 @@
+{
+  "dataset_file": "tickets.csv",
+  "dataset_sha256": "470043fd33c10bd5905a1ccdcc66da5fd5591ee08582aa8f3473af45044158eb",
+  "hyperparameters": {
+    "C": 10.0,
+    "defaults": {
+      "C": 10.0,
+      "ngram_range": [
+        1,
+        2
+      ]
+    },
+    "ngram_range": [
+      1,
+      2
+    ]
+  },
+  "labels": [
+    "appointment",
+    "billing",
+    "login",
+    "technical"
+  ],
+  "model_file": "model.joblib",
+  "model_sha256": "4e6dd7af48fbe1d1a9e5fd9b9629281258ba12e8495d49057ddc5ba53ffc4b80",
+  "n_examples": 120,
+  "n_test": 30,
+  "n_train": 90,
+  "python_version": "3.12.13",
+  "saved_at_utc": "2026-10-27T05:52:16+00:00",
+  "seed": 42,
+  "sklearn_version": "1.9.1",
+  "test_size": 0.25,
+  "test_ticket_ids": [
+    "T-112",
+    "T-076",
+    "T-113",
+    "T-062",
+    "T-073",
+    "T-116",
+    "T-011",
+    "T-064",
+    "T-023",
+    "T-035",
+    "T-030",
+    "T-061",
+    "T-097",
+    "T-106",
+    "T-068",
+    "T-020",
+    "T-046",
+    "T-069",
+    "T-119",
+    "T-074",
+    "T-018",
+    "T-084",
+    "T-118",
+    "T-056",
+    "T-099",
+    "T-051",
+    "T-040",
+    "T-067",
+    "T-024",
+    "T-063"
+  ],
+  "tuned": false
+}

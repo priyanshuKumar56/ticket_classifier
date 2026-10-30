@@ -1,0 +1,10 @@
+ticket_id,text,case
+OK-LOGIN,I forgot my password and the reset email never arrives,valid login ticket
+OK-BILLING,The invoice total is wrong and we were charged twice,valid billing ticket
+OK-APPOINTMENT,Please reschedule tomorrow morning visit to Friday afternoon,valid appointment ticket
+OK-TECHNICAL,The app shows a white screen after I open patient search,valid technical ticket
+BUG-A,   ,defect A: spaces only. Should be rejected. Today it is classified.
+BUG-A-TABS,		,defect A: tabs only. Should be rejected. Today it is classified.
+EMPTY,,blank field. The uploader reads this as missing, so the row is already rejected. Not defect A.
+DUP-100,I cannot log in because the password reset email never arrives,"same id as the next row, different text"
+DUP-100,We were charged twice and the invoice total is wrong,duplicate id DUP-100 with different text. Batch upload still scores both.

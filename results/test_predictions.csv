@@ -1,0 +1,31 @@
+ticket_id,text,true_category,predicted_category,confidence,margin,needs_review,correct,prob_appointment,prob_billing,prob_login,prob_technical
+T-112,"Invoice numbers are skipping, there is a gap between 1042 and 1045.",billing,technical,0.3882,0.1191,True,False,0.2691,0.2016,0.1411,0.3882
+T-076,Can you explain the extra fee on this month's bill for additional user seats?,billing,billing,0.391,0.0976,True,True,0.2934,0.391,0.1483,0.1674
+T-113,Printed prescriptions are cut off on the right edge of the page.,technical,technical,0.4643,0.2253,False,True,0.1518,0.2391,0.1448,0.4643
+T-062,Please update the billing contact email for the clinic account.,billing,billing,0.4838,0.3102,False,True,0.1724,0.4838,0.1703,0.1736
+T-073,Signing in with my work Google account fails with an access denied message.,login,technical,0.5413,0.2359,False,False,0.0741,0.0792,0.3054,0.5413
+T-116,The payment page shows the amount in the wrong currency for international patients.,billing,billing,0.4103,0.1563,True,True,0.2333,0.4103,0.1024,0.254
+T-011,Can we enforce stronger password rules for all clinic staff?,login,appointment,0.4529,0.2008,False,False,0.4529,0.2096,0.2521,0.0853
+T-064,The app crashes whenever I open a patient record with more than ten attachments.,technical,technical,0.5813,0.4288,False,True,0.1467,0.1525,0.1196,0.5813
+T-023,Confirmation emails show the wrong visit date for patients in a different time zone.,appointment,appointment,0.4033,0.0163,True,True,0.4033,0.387,0.0835,0.1263
+T-035,We were charged for fifteen user licences but only have twelve staff members.,billing,appointment,0.4258,0.1614,True,False,0.4258,0.2644,0.208,0.1017
+T-030,Please cancel all bookings on the clinic holiday and notify the patients affected.,appointment,billing,0.2866,0.0171,True,False,0.2695,0.2866,0.1801,0.2638
+T-061,Rescheduling a visit sends the patient a cancellation notice instead of a change notice.,appointment,billing,0.4105,0.0973,True,False,0.3132,0.4105,0.1104,0.1659
+T-097,Our appointment types list is missing the new annual check-up option.,appointment,appointment,0.4153,0.1235,True,True,0.4153,0.2917,0.1278,0.1652
+T-106,A patient was charged twice for the same consultation fee.,billing,appointment,0.4452,0.0146,True,False,0.4452,0.4306,0.0578,0.0664
+T-068,We need to apply a discount code to a patient's outstanding balance.,billing,billing,0.44,0.0901,True,True,0.3499,0.44,0.1056,0.1045
+T-020,My account is locked after too many failed sign in attempts.,login,login,0.8075,0.7083,False,True,0.0534,0.0398,0.8075,0.0992
+T-046,A new doctor can sign in but sees an empty dashboard because no patient permissions were assigned.,login,appointment,0.4316,0.2228,True,False,0.4316,0.1596,0.2088,0.2
+T-069,The account for our locum doctor should expire automatically after one week.,login,billing,0.3565,0.1038,True,False,0.2527,0.3565,0.2099,0.1809
+T-119,Group appointments for vaccination day should allow ten patients per slot.,appointment,appointment,0.771,0.678,False,True,0.771,0.093,0.077,0.0591
+T-074,The font size in printed lab results is tiny and hard to read.,technical,technical,0.3538,0.0964,True,True,0.1921,0.1966,0.2575,0.3538
+T-018,A new staff member did not receive the invitation link to create an account.,login,appointment,0.3194,0.0505,True,False,0.3194,0.2493,0.2689,0.1625
+T-084,Dark mode makes the form labels unreadable on the intake screen.,technical,technical,0.6657,0.5284,False,True,0.0893,0.1373,0.1077,0.6657
+T-118,Data from our lab system has stopped syncing since yesterday evening.,technical,login,0.3261,0.0208,True,False,0.1322,0.2364,0.3261,0.3053
+T-056,The system is very slow during peak hours and screens time out.,technical,technical,0.3275,0.0569,True,True,0.2137,0.1881,0.2706,0.3275
+T-099,The backup job reported success but the restore test could not open the files.,technical,billing,0.3532,0.0956,True,False,0.2576,0.3532,0.1412,0.2481
+T-051,The barcode scanner input is not recognised by the check-in screen.,technical,login,0.3142,0.0292,True,False,0.2678,0.133,0.3142,0.285
+T-040,The online booking page shows last week's availability instead of next week's.,appointment,billing,0.3849,0.1087,True,False,0.2762,0.3849,0.1318,0.2072
+T-067,My password contains a special character and the login form rejects it.,login,login,0.8569,0.785,False,True,0.0353,0.036,0.8569,0.0718
+T-024,A cancelled appointment is still showing on the doctor's calendar for Friday.,appointment,appointment,0.351,0.0344,True,True,0.351,0.3166,0.1592,0.1733
+T-063,Appointment reminder text messages are not going out to patients the day before their visit.,appointment,appointment,0.5285,0.2576,False,True,0.5285,0.271,0.0802,0.1202
